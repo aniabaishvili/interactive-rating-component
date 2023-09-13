@@ -1,0 +1,170 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+    font-style: normal;
+    font-family: 'Overpass', sans-serif;
+    
+}
+
+:root {
+    --White: hsl(0, 0%, 100%);
+    --Light-Grey: hsl(217, 12%, 63%);
+    --Medium-Grey: hsl(216, 12%, 54%, 0.205);
+    --Dark-Blue: hsl(213, 19%, 18%);
+    --Very-Dark-Blue: hsl(216, 12%, 8%);
+    --Orange: hsl(25, 97%, 53%);
+    --Light-Orange: hsl(25, 72%, 48%);
+  }
+
+  body{
+    background-color: var(--Very-Dark-Blue);
+  }
+
+  .container, .thank{
+    width:345px;
+    
+    border-radius: 12px;
+    background-color: var(--Dark-Blue);
+    padding:30px;
+  }
+
+  main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+    
+  }
+
+  .icon-star{
+    padding:16px;
+    border-radius: 50%;
+    background-color: var(--Medium-Grey);
+  }
+
+  .text p{
+    color:var(--Light-Grey);
+    line-height: 23px;
+    font-size: 15px;
+    margin-top: 15px;
+  }
+
+  h3{
+    color:var(--White);
+    font-size: 1.5rem;
+  }
+
+  .text{
+    padding:15px 0px;
+  }
+
+  .numbers p{
+    color: var(--Light-Grey);
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 17px;
+    
+    
+   
+  }
+
+  .numbers button{
+    background-color: var(--Medium-Grey);
+    border-radius: 50%;
+    border-style: none;
+  }
+
+  .numbers{
+    column-gap: 20px;
+    display: flex;
+  }
+
+  .btn{
+    color:var(--White);
+    background-color: var(--Orange);
+    font-weight: bold;
+    padding: 1rem;
+    border-radius: 2rem;
+    border-style: none;
+    margin-top: 20px;
+    letter-spacing: 4px;
+    width: 100%;
+  }
+
+  .numbers button:hover, .numbers button p:hover{
+    background-color: var(--Light-Grey);
+    color: var(--White);
+    cursor: pointer;
+  }
+  .numbers button:hover, .numbers button p:active{
+    background-color: var(--Orange);
+    color: var(--White);
+  }
+  .selected {
+    background-color: var(--Orange);
+    color: var(--White);
+  }
+
+
+  .btn:hover{
+    background-color: var(--White);
+    color: var(--Orange);
+    cursor: pointer;
+  }
+
+  .thank{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .thank-visible{
+    display: flex !important;
+  }
+
+  span{
+    background-color: var(--Medium-Grey);
+    border-radius: 1rem;
+    padding: 6.4px 20.8px;
+    color: var(--Orange);
+  }
+  
+
+  .rating-div{
+    padding:30px 0px;
+  }
+
+  .text-div{
+    text-align: center;
+  }
+
+  .text-div p{
+    color:var(--Light-Grey);
+    line-height: 23px;
+    font-size: 15px;
+    padding-top: 15px;
+  }
+
+  .hidden{
+    display: none;
+  }
+
+  
+ 
+
+  
+  @media  screen and (min-width:568px) {
+    .container, .thank{
+        width:400px;
+        
+      }
+
+      .numbers{
+        column-gap: 30px;
+      }
+    
+  }
