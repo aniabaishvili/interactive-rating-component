@@ -9,3 +9,4 @@ Users should be able to:
 
 
 ## Screenshot  
+<img width="1440" alt="Screenshot 2023-09-13 at 15 44 07" src="https://github.com/aniabaishvili/interactive-rating-component/assets/110342939/0fc772d3-53d1-4ffa-8f79-664c83f4672e">
